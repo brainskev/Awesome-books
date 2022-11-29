@@ -4,30 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Awesome-Books</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <div>
-    <h1 class="awesomebooks">Awesome books</h1>
-  </div>
-
-  <div class="books">
-    
-  </div>
-
-  <form class="bookForm">
-    <input type="text" name="title" class="title" id="title" placeholder="Title">
-    <br>
-    <br>
-    <input type="text" id="author" name="author" class="author" placeholder="Author">
-    <br>
-    <br>
-    <div class="btn">
-    <button type="submit" class="add"> Add</button>
+    <header>
+        <h2 class="navHeader">Awesome Books</h2>
+    </header>
+    <div class="date-time">
+        <p id="dateTime"></p>
     </div>
-</form>
-<script src="UI.js"></script>
-<script src="main.js"></script>
-<script src="store.js"></script>
+
+    <div class="books">
+        
+    </div>
+
+    <form class="bookForm">
+        <input type="text" name="title" class="title" id="title" placeholder="Title">
+        <br>
+        <br>
+        <input type="text" id="author" name="author" class="author" placeholder="Author">
+        <br>
+        <br>
+        <div class="btn">
+        <button type="submit" class="add"> Add</button>
+        </div>
+    </form>
+
+    <section class="contact">
+    </section>
+    <script src="index.js" type="module"></script>
 </body>
 </html>

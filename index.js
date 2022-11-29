@@ -1,6 +1,5 @@
-// import Store from './modules/store.js';
-// import UI from './modules/ui.js';
-// import { DateTime } from './modules/date.js';
+import Store from './modules/store.js';
+import UI from './modules/ui.js';
 
 class Book {
   constructor(title, author, id = Math.floor(Math.random() * 1000000)) {
@@ -21,7 +20,7 @@ document.querySelector('.bookForm').addEventListener('submit', (e) => {
   if (titleInput !== '' && authorInput !== '') {
     const book = new Book(titleInput, authorInput);
     UI.addBookToList(book);
-    // Store.addBook(book);
+    Store.addBook(book);
     UI.clearFields();
   } else {
     // eslint-disable-next-line no-alert
@@ -36,4 +35,3 @@ document.querySelector('.books').addEventListener('click', (e) => {
     UI.deleteBook(e.target);
   }
 });
-

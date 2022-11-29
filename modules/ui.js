@@ -1,32 +1,24 @@
+import Store from './store.js';
 
-// import Store from './store.js';
-
- class UI {
+export default class UI {
   static displayBooks() {
-    const storedBooks = [
-        {
-            title: 'book one',
-            author: 'kelvin kaviku',
-        }   
-    ];
-
-    const books = storedBooks;
-// Store.getBooks();
-// //     books.forEach((book) => UI.addBookToList(book));
-// //  
-console.log(storedBooks);
- }
-
-
+    const books = Store.getBooks();
+    books.forEach((book) => UI.addBookToList(book));
+  }
 
   static addBookToList(book) {
     const books = document.querySelector('.books');
     const newBook = document.createElement('div');
     newBook.innerHTML = `
-    <p>${book.title}</p>
-    <p>${book.author}</p>
-    <button class="remove ${book.id}">Remove</button><hr>
-     `;
+        <div>
+        <div class="bookDiv">
+        <p id="title" class="">${book.title}  </br> ${book.author}</p>
+        <button class="delete">Remove</button>
+        </div>
+        <hr class="hr">
+        </div>
+        `;
+    newBook.classList.add('newBook');
     books.appendChild(newBook);
   }
 
