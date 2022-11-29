@@ -10,15 +10,22 @@
   <div>
     <h1 class="awesomebooks">Awesome books</h1>
   </div>
-  <div class="books">
-
-  </div>
-  <div>
-    <form class="addbook">
-      <input type="text" name="title" class="title" placeholder="Title">
-      <input type="text" name="author" class="author" placeholder="author">
-      <button type="submit" class="add">Add</button>
-    </form>
-  </div>
+  <table class="books">
+    <th>title</th>
+    <th>author</th>
+    <th></th>
+  </table>
+  <form class="bookForm">
+    <h2 class="form-heading">Add a new book</h2>
+    <input type="text" name="title" class="title" id="title" placeholder="Title">
+    <br>
+    <br>
+    <input type="text" id="author" name="author" class="author" placeholder="Author">
+    <br>
+    <br>
+    <div class="btn">
+    <button type="submit" class="add"> Add</button>
+    </div>
+</form>
 </body>
 </html>

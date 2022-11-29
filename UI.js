@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // import Store from './store.js';
 
 export default class UI {
@@ -40,6 +40,3 @@ export default class UI {
     document.querySelector('.author').value = '';
   }
 }
-=======
-// UI 
->>>>>>> b5d0490cb33f9a5a1dcc38ff52dca4fd828995af
