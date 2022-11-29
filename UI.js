@@ -21,7 +21,7 @@ console.log(storedBooks);
 
   static addBookToList(book) {
     const books = document.querySelector('.books');
-    const newBook = document.createElement('li');
+    const newBook = document.createElement('div');
     newBook.innerHTML = `
     <p>${book.title}</p>
     <p>${book.author}</p>
