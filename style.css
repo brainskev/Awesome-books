@@ -7,15 +7,18 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 3px;
+  padding: 5px 5%;
+  font-family: sans-serif;
+  font-weight: bold;
 }
+
 .delete {
   display: flex;
   justify-content: flex-end;
 }
 .bookForm {
 padding-top: 20px;
-width: 40px;
+width: 40%;
 margin: auto;
 }
 
@@ -25,8 +28,7 @@ margin: auto;
 
 .btn {
   display: flex;
-  align-self: flex-end;
-
+  justify-content: right;
 }
 
 .add {
@@ -34,8 +36,8 @@ margin: auto;
   box-shadow: #1c1c1c 2px 2px;
 }
 .delete {
-  padding:5px;
-  box-shadow: #1c1c1c 2px 2px;
+  padding: 4px 2px;
+  box-shadow: #1c1c1c 3px 3px;
 }
 
 .books {
@@ -44,7 +46,11 @@ margin: auto;
   padding: 10px;
 }
 
-.list:nth-child() {
-  color: #ddd;
-
+.newBook:nth-child(even) {
+  background-color: rgb(255, 253, 253);
 }
+
+.newBook:nth-child(odd) {
+  background-color: #ddd;
+}
+

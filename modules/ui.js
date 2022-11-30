@@ -16,7 +16,6 @@ export default class UI {
         <p class="hidy">${book.id}</p>
         <button class="delete">Remove</button>
         </div>
-        <hr class="hr">
         </div>
         `;
     newBook.classList.add('newBook');
