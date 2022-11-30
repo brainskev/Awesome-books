@@ -1,3 +1,24 @@
+.navHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bookDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.delete {
+  display: flex;
+  justify-content: flex-end;
+}
+.bookForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .hidy {
   display: none;
 }

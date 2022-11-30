@@ -12,7 +12,7 @@ export default class UI {
     newBook.innerHTML = `
         <div>
         <div class="bookDiv">
-        <p id="title" class="">${book.title}  </br> ${book.author}</p>
+        <p id="title" class="">${book.title}&nbspby&nbsp${book.author}</p>
         <p class="hidy">${book.id}</p>
         <button class="delete">Remove</button>
         </div>
