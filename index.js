@@ -1,6 +1,5 @@
 import Store from './modules/store.js';
 import UI from './modules/ui.js';
-import { DateTime } from './modules/date.js';
 
 class Book {
   constructor(title, author, id = Math.floor(Math.random() * 1000000)) {
@@ -36,4 +35,3 @@ document.querySelector('.books').addEventListener('click', (e) => {
     UI.deleteBook(e.target);
   }
 });
-
