@@ -1,9 +1,14 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
 .navHeader {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.bookDiv{
+
+.bookDiv {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -12,29 +17,32 @@
   font-weight: bold;
 }
 
-.delete {
-  display: flex;
-  justify-content: flex-end;
-}
 .bookForm {
-padding-top: 20px;
-width: 40%;
-margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  width: 40vw;
+  margin: auto;
+  gap: 0;
+}
+
+#title,
+#author {
+  width: 40vw;
 }
 
 .hidy {
   display: none;
 }
 
-.btn {
-  display: flex;
-  justify-content: right;
-}
-
 .add {
-  padding:5px;
+  display: flex;
+  align-self: flex-end;
+  padding: 5px;
   box-shadow: #1c1c1c 2px 2px;
 }
+
 .delete {
   padding: 4px 2px;
   box-shadow: #1c1c1c 3px 3px;
@@ -53,4 +61,3 @@ margin: auto;
 .newBook:nth-child(odd) {
   background-color: #ddd;
 }
-
