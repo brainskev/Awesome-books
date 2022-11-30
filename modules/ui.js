@@ -13,7 +13,7 @@ export default class UI {
         <div>
         <div class="bookDiv">
         <p id="title" class="">${book.title}  </br> ${book.author}</p>
-        <h4 class="hidy">${book.id}</h4>
+        <p class="hidy">${book.id}</p>
         <button class="delete">Remove</button>
         </div>
         <hr class="hr">

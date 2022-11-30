@@ -19,6 +19,6 @@ export default class Store {
     let books = Store.getBooks();
     id = parseInt(id, 10);
     books = books.filter((book) => book.id !== id);
-    localStorage.setItem('books', JSON.stringify(books));  
+    localStorage.setItem('books', JSON.stringify(books));
   }
 }
