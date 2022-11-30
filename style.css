@@ -5,20 +5,46 @@
 }
 .bookDiv{
   display: flex;
-  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
+  padding: 3px;
 }
 .delete {
   display: flex;
   justify-content: flex-end;
 }
 .bookForm {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+padding-top: 20px;
+width: 40px;
+margin: auto;
 }
 
 .hidy {
   display: none;
+}
+
+.btn {
+  display: flex;
+  align-self: flex-end;
+
+}
+
+.add {
+  padding:5px;
+  box-shadow: #1c1c1c 2px 2px;
+}
+.delete {
+  padding:5px;
+  box-shadow: #1c1c1c 2px 2px;
+}
+
+.books {
+  margin: auto;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+.list:nth-child() {
+  color: #ddd;
+
 }
