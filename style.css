@@ -3,6 +3,7 @@
 }
 
 .navHeader {
+  font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,7 +63,7 @@
   background-color: #ddd;
 }
 
-.awesomeBooks{
+.awesomeBooks {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,10 +76,6 @@ header {
   justify-content: space-between;
   display: flex;
   padding-left: 10px;
-}
-
-.navHeader {
-  font-size: 20px;
 }
 
 .navUl {
@@ -105,7 +102,7 @@ header {
   width: 60px;
 }
 
-.contactDiv{
+.contactDiv {
   padding: 10vw;
   flex-direction: column;
   display: flex;
@@ -115,10 +112,10 @@ header {
 .copyright {
   border: 2px solid black;
   position: absolute;
-  
   width: 95vw;
   top: 92vh;
 }
+
 .copyright p {
   margin-left: 10px;
 }
