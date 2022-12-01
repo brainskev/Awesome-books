@@ -125,7 +125,6 @@ header {
 
 .date-time {
   display: flex;
-  width: 80%;
   margin: 20px auto auto auto;
   justify-content: right;
 }

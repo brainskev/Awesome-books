@@ -46,6 +46,13 @@ const contact = document.querySelector('.contactUs');
 const contactUs = document.querySelector('.contact');
 const dateTime = document.querySelector('#dateTime');
 
+window.addEventListener('DOMContentLoaded', () => {
+  books.style.display = 'block';
+  awesomeBooks.style.display = 'flex';
+  bookForm.style.display = 'none';
+  contactUs.style.display = 'none';
+});
+
 list.addEventListener('click', () => {
   books.style.display = 'block';
   awesomeBooks.style.display = 'flex';
