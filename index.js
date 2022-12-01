@@ -47,7 +47,7 @@ const dateTime = document.querySelector('#dateTime');
 
 list.addEventListener('click', () => {
   books.style.display = 'block';
-  awesomeBooks.style.display = 'block';
+  awesomeBooks.style.display = 'flex';
   bookForm.style.display = 'none';
   contactUs.style.display = 'none';
 });
@@ -64,7 +64,7 @@ contact.addEventListener('click', () => {
   contactUs.style.display = 'flex';
   contactUs.innerHTML = `
     <div class=contactDiv>
-      <h2>contact information</h2>
+      <h2>Contact Information</h2>
       <p>Do you have any questions or you just want to say <q>Hello</q>?
         You can reach out to us!</p>
       <ul>
@@ -75,7 +75,7 @@ contact.addEventListener('click', () => {
     </div>
     `;
 
-    bookForm.style.display = 'none';
-    awesomeBooks.style.display = 'none';
-    books.style.display = 'none';
+  bookForm.style.display = 'none';
+  awesomeBooks.style.display = 'none';
+  books.style.display = 'none';
 });

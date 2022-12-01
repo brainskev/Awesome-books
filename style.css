@@ -70,12 +70,10 @@
 
 header {
   border: 2px solid #1c1c1c;
-  width: 80%;
   margin: 20px auto auto auto;
   align-items: center;
   justify-content: space-between;
   display: flex;
-  height: 30px;
   padding-left: 10px;
 }
 
@@ -107,4 +105,21 @@ header {
   width: 60px;
 }
 
+.contactDiv{
+  padding: 10vw;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  border: 2px solid black;
+  position: absolute;
+  
+  width: 95vw;
+  top: 92vh;
+}
+.copyright p {
+  margin-left: 10px;
+}
 
